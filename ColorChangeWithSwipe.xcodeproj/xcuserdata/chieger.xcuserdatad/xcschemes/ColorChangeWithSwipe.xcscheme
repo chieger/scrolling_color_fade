@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EC6465711DC11801002D111F"
+               BuildableName = "ColorChangeWithSwipe.app"
+               BlueprintName = "ColorChangeWithSwipe"
+               ReferencedContainer = "container:ColorChangeWithSwipe.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EC6465851DC11801002D111F"
+               BuildableName = "ColorChangeWithSwipeTests.xctest"
+               BlueprintName = "ColorChangeWithSwipeTests"
+               ReferencedContainer = "container:ColorChangeWithSwipe.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EC6465901DC11801002D111F"
+               BuildableName = "ColorChangeWithSwipeUITests.xctest"
+               BlueprintName = "ColorChangeWithSwipeUITests"
+               ReferencedContainer = "container:ColorChangeWithSwipe.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EC6465711DC11801002D111F"
+            BuildableName = "ColorChangeWithSwipe.app"
+            BlueprintName = "ColorChangeWithSwipe"
+            ReferencedContainer = "container:ColorChangeWithSwipe.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EC6465711DC11801002D111F"
+            BuildableName = "ColorChangeWithSwipe.app"
+            BlueprintName = "ColorChangeWithSwipe"
+            ReferencedContainer = "container:ColorChangeWithSwipe.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EC6465711DC11801002D111F"
+            BuildableName = "ColorChangeWithSwipe.app"
+            BlueprintName = "ColorChangeWithSwipe"
+            ReferencedContainer = "container:ColorChangeWithSwipe.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
