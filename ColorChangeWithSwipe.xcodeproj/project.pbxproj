@@ -14,6 +14,7 @@
 		EC6465801DC11801002D111F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC64657E1DC11801002D111F /* LaunchScreen.storyboard */; };
 		EC64658B1DC11801002D111F /* ColorChangeWithSwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC64658A1DC11801002D111F /* ColorChangeWithSwipeTests.swift */; };
 		EC6465961DC11801002D111F /* ColorChangeWithSwipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6465951DC11801002D111F /* ColorChangeWithSwipeUITests.swift */; };
+		EC6465A41DC26522002D111F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6465A31DC26522002D111F /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EC6465911DC11801002D111F /* ColorChangeWithSwipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorChangeWithSwipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6465951DC11801002D111F /* ColorChangeWithSwipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeWithSwipeUITests.swift; sourceTree = "<group>"; };
 		EC6465971DC11801002D111F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6465A31DC26522002D111F /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				EC6465751DC11801002D111F /* AppDelegate.swift */,
 				EC6465771DC11801002D111F /* WelcomeViewController.swift */,
 				EC6465791DC11801002D111F /* Main.storyboard */,
+				EC6465A31DC26522002D111F /* Common.swift */,
 				EC64657C1DC11801002D111F /* Assets.xcassets */,
 				EC64657E1DC11801002D111F /* LaunchScreen.storyboard */,
 				EC6465811DC11801002D111F /* Info.plist */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC6465781DC11801002D111F /* WelcomeViewController.swift in Sources */,
+				EC6465A41DC26522002D111F /* Common.swift in Sources */,
 				EC6465761DC11801002D111F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
